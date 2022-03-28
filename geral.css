@@ -1,0 +1,238 @@
+body{
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 768px;
+    margin: auto;
+}
+a{
+    
+}
+#introducao{
+    width: 1024px;
+    height: 768px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: 39% 62%;
+}
+#Logo{    
+    height: 380px;
+    /* border: 1px solid red; */
+    margin-top: 150px;    
+}
+#Logo figure{
+    height: 380px;
+    width: 400px;
+    margin: 0px;
+    border: 1px solid white;
+}
+#BarraNavegacao{    
+    height: 100px;    
+    /* border: 1px solid red; */
+    background-color: rgba(196,196,196,0.1);
+    margin-top: 250px;  
+    margin-left: 3px;
+}
+#BarraNavegacao h1{
+    color: white;
+    margin: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+    /* border: 1px solid red;     */
+}
+nav{
+    margin-top: 5px;
+    margin-left: 45px;    
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+nav h2{
+    margin-top: 5px;
+    margin-right: 23px;   
+    display: inline-block;
+    color: red;    
+}
+main#Tour{
+    width: 1024px;
+    height: 768px;
+    /* border: 1px solid green; */
+    margin: auto;    
+}
+section#topo{
+   height: 170px;    
+}
+section#principal{
+    /* border: 1px solid blue; */
+    height: 598px;    
+}
+#BarraNavegacaoTour{
+    height: 170px;    
+    /* border: 1px solid red; */
+    background-color: rgba(196,196,196,0.1);    
+    display: grid;
+    grid-template-columns: 21% 62%;
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: red;
+}
+#logotopo{    
+    /* border: 1px solid red; */
+    height: 200px;  
+}
+#logotopo figure{    
+    margin: 0px 60px;
+}
+#NomeBanda{
+    display: grid;
+    height: 70px;
+    width: 300px;  
+    /* border: 1px solid red;   */
+}
+#NomeBanda h1{
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #E7E6E2;
+    font-family: 'roboto';    
+}
+#MenuTour{
+    /* border: 1px solid red; */
+    margin: 0px 10px;
+    display: block;
+}
+#menu nav h2{ 
+    margin-top: 0px;   
+    margin-right: 23px;   
+    display: inline-block;
+    color: red;   
+}
+#menu nav h2:hover{     
+    color: black;   
+}
+#NomeBanda a{
+    text-decoration: none; 
+}
+#titulo{
+    height: 50px;
+    width: 400px;
+    /* border: 1px solid red; */
+    margin: 10px 0px 0px 60px;
+}
+#titulo-Band{
+    height: 400px;
+    width: 100px;
+    /* border: 1px solid red; */
+    margin: 0px;
+    float: left;
+    color: white;
+    font-size: 24px;
+}
+#Titulo-Music{
+    height: 50px;
+    width: 1022px;
+    
+    
+}
+#titulo-music h1{
+    color: #E7E6E2;
+    font-family: 'roboto';
+    font-size: 40px;
+    margin: 0px;
+    /* border: 1px solid red; */
+    margin-left: 50px;
+}
+#titulo h1{
+    color: #E7E6E2;
+    font-family: 'roboto';
+    font-size: 40px;
+    margin: 0px;    
+}
+#shows{
+    height: 452px;    
+    /* border: 1px solid red;  */
+}
+#shows div{
+    width: 310px;
+    height: 73px;
+    /* border: 1px solid red;      */
+    font-family: 'Roboto'; 
+    margin-left: 100px;
+}
+#shows div h2{
+    margin: 0px;
+    color: #E7E6E2;
+}
+#shows div h3{
+    margin: 0px;
+    color: #CD5147;
+}
+#Foto-band{
+    height: 400px;
+    width: 920px;    
+    /* border: 1px solid yellow;  */
+    margin-left: 100px;
+}
+#Foto-band figure{
+    margin: 5px;
+}
+#artistas{
+    width: 940px;
+    height: 90px;
+    /* border: 1px solid red; */
+    margin-left: 80px;
+}
+.integrantes{
+    width: 170px;
+    height: 50px;
+    display: inline-block;
+    /* border: 1px solid red;  */
+    margin: 0px;
+    padding-top: 20px;
+}
+.integrantes h2{
+    color: white;
+    margin: 0px;
+    font-size: 21px;
+    text-align: center;
+    font-family: 'roboto';
+}
+.integrantes h3{
+    color: red;
+    margin: 0px;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'roboto';
+}
+#Albuns{
+    height: 452px;    
+    padding-top: 7px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    /* border: 1px solid yellow;  */
+}
+#Albuns div{
+    width: 200px;
+    height: 190px;
+    /* border: 1px solid red;     */
+}
+#footer-Tour{
+    height: 70px;
+    background-color: rgba(196,196,196,0.1); 
+    /* border: 1px solid red;  */
+    text-align: center;
+}
+#footer-Tour h2{
+    display: inline-block;
+    margin-right: 10px;    
+}
+#footer-Tour a{
+    color: red;
+    cursor: pointer;
+}
+#footer-Tour a:hover{
+    color: black;
+    cursor: pointer;
+}
