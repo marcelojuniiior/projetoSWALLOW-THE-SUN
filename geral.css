@@ -109,9 +109,7 @@ section#principal{
     display: inline-block;
     color: red;   
 }
-#BarraNavegacao nav h2:hover{
-    color: black;   
-}
+#BarraNavegacao nav h2:hover,
 #menu nav h2:hover{     
     color: black;   
 }
